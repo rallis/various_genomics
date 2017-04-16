@@ -1,0 +1,58 @@
+﻿<html>
+  <head>
+    <title>Taxonomy Explorer</title>
+    <link rel="stylesheet" type="text/css" href="taxa.css">
+    <script type="text/javascript" src="taxa.js"></script>
+    <script id="new" type="text/javascript" src=""></script>
+  </head>
+
+    
+<body onload="myonload();">
+
+<center>
+<table id="info_table" border="1">
+  <tr>
+    <th colspan="2">Parent</th>
+  </tr>
+  <tr>
+    <td id="parent" colspan="2"></td>
+  </tr>
+  <tr>
+    <th>Taxonomy Name</th>
+    <th># Sequences</th>
+  </tr>
+  <tr>
+    <td id="taxonomy"></td>
+    <td id="multiplicity"></td>
+  </tr>
+  <tr>
+    <th colspan="2">Children</th>
+  </tr>
+  <tr>
+    <td id="allchildren" colspan="2"></td>
+  </tr>
+ 
+</table>
+</br>
+</br>
+<input type="submit" value="START from root!!" onclick="start();"/>
+</br>
+</br>
+Or, search by keyword</br>
+<input type="text" id="tosearch" onkeyup="startSearch();" onfocus="startSearch();" value="" maxlength="15" size="15"/>
+</br>
+<div id="searchstatus"></div>
+</br></br>
+
+</center>
+
+<hr>
+</br> 
+
+
+<table id="allparents" border="1">
+</table>
+
+</body>
+</html>
+

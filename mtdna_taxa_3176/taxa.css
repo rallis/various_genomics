@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #EFEFF5;
+}
+
+td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*
+#info_table{
+  width: 100%;
+}
+
+#allchildren{
+  width:100%;
+}
+
+#dbg_table{
+  width:100%; 
+}
+
+*/
