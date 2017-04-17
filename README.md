@@ -1,3 +1,3 @@
 ## Various Genomics mini-projects
 
-Available on (https://rallis.github.io/various_genomics/)
+Available on <a href="https://rallis.github.io/various_genomics/" target="_blank">https://rallis.github.io/various_genomics/</a>
